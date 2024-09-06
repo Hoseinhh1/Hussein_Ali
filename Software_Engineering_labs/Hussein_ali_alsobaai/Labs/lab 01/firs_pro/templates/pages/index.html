@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="">
+    <style>
+        
+        
+        
+    </style>
+    
+    
+</head>
+<body>
+    <p>hello <span> {{name.1|capfirst}} every one </span></p>
+    <table class="table" border="1">
+        <thead>
+            <tr>
+                <th>الاسم</th>
+                <th>العمر</th>
+                <th>المدينة</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td scope="row">{{name.0|capfirst}}</td>
+                <td>{{age}}</td>
+                <td>{{city}}</td>
+            </tr>
+            <tr>
+                <td scope="row">{{name.1}}</td>
+                <td>{{age|add:4}}</td>
+                <td>{{city}}</td>
+            </tr>
+        </tbody>
+    </table>
+    <div class="container">
+        djfkd
+
+    </div>
+</body>
+</html>
